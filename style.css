@@ -45,13 +45,12 @@ ul{
 }
 
 .hero-container img{
-width: 650px;
-height: 350px;
+width:95%;
+height: auto;
 
 }
 .hero-container{
-margin:1em 13em 3em;
-padding: 6em;
+padding: 5em 13em;
 display: flex;
 justify-content:center;
 align-items: flex-start;
@@ -112,7 +111,7 @@ max-width: 70%;
 .quote-section{
 
 background-color:#e5e7eb;
-padding:7em 20em;
+padding:7em 10em;
 
 }
 .quote{
@@ -142,7 +141,7 @@ display:flex;
 justify-content: space-around;
 align-items: center;
 border-radius:1em;
-padding:4em;
+padding:2em;
 
 }
 .cta-box p{
