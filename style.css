@@ -1,0 +1,167 @@
+body{
+  background-color: #1F2937;
+ overflow: auto;
+
+
+}
+
+.header{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo{
+  font-weight: bold;
+  font-size: 24px;
+  color: #E5E7EB ;
+}
+.header-links{
+ display: flex;
+
+}
+ul{
+  display: flex;
+  list-style-type: none;
+  color: #E5E7EB;
+  font-size: 18px;
+  display: flex;
+  gap: 16px;
+}
+.hero-main-text p, h1{
+  max-width: 80%;
+}
+.hero-main-text h1{
+  font-size:48px;
+  font-weight:bolder;
+  color:#F9FAF8;
+}
+.hero-main-text p{
+  color: #E5E7EB;
+  font-size:18px;
+ 
+
+  
+}
+
+.hero-container img{
+width: 650px;
+height: 350px;
+
+}
+.hero-container{
+margin:1em 13em 3em;
+padding: 6em;
+display: flex;
+justify-content:center;
+align-items: flex-start;
+
+
+}
+.button{
+ 
+  color: white;
+  background-color: #3883f6;
+  display: inline;
+padding: 5px 20px;
+border-radius: 6px;
+font-size:18px;
+text-align: center;
+}
+.info-section{
+  background-color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 3em 4em;
+ 
+}
+.box{
+  height: 200px;
+  width: 200px;
+  border: solid 5px #3883f6;
+  border-radius:1em;
+}
+.info-header {
+ font-size:36px;
+font-weight:900;
+color: #1f2937;
+padding: 1em;
+}
+.info-box-container{
+  display: flex;
+  margin:2em;
+}
+.info-box{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 25%;
+
+
+}
+.info-box p{
+font-size:18px; 
+/* padding: 0 4em; */
+max-width: 70%;
+
+}
+.quote-section{
+
+background-color:#e5e7eb;
+padding:7em 20em;
+
+}
+.quote{
+font-size:36px;
+font-weight:light;
+display: flex;
+justify-content:center;
+align-items:center;
+
+
+
+}
+.author{
+font-size:18px;
+font-weight:800;
+justify-content:flex-end;
+display:flex;
+}
+.cta-section{
+  padding: 6em;
+background-color:white;
+}
+.cta-box{
+background-color: #3882f6;
+color:white;
+display:flex;
+justify-content: space-around;
+align-items: center;
+border-radius:1em;
+padding:4em;
+
+}
+.cta-box p{
+color: #E5E7EB;
+  font-size:18px;
+}
+.cta-button{ 
+ 
+  color: white;
+  background-color: #3883f6;
+border-radius: 6px;
+font-size:18px;
+border: solid 2px white;
+display: flex;
+padding:0.2em 1em;
+}
+.footer{
+  color: white;
+  text-align: center;
+  margin-top: auto;
+  padding: 1em;
+}
